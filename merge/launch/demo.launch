@@ -1,0 +1,5 @@
+<launch>
+    <node name="sync" pkg="merge" type="merge_node" >
+        <param name="num_lidars" type="int" value = "4" />
+    </node>
+</launch>
